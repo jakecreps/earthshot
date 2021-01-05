@@ -1,2 +1,6 @@
 # earthshot
 A utility that automatically takes screenshots of coordinates using Google Earth.
+
+Make sure to download Chromedriver and place it in PATH
+
+Simply replace the coordinates in coordinates.csv with the coordinates you'd like to check using the same format and run the script.
