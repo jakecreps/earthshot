@@ -17,7 +17,6 @@ def earthshot():
         driver.get(url)
         time.sleep(6)
         screenshot = driver.save_screenshot(coords + '.png')
-        driver.quit()
-        print("Screenshot saved for " + coord + "!")
+        print("Screenshot saved for " + coords + "!")
 
 earthshot()
